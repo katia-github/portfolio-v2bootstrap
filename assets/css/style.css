@@ -1,12 +1,27 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 body {
     background-image: url("../images/fishnets-and-hearts.png");
     margin: 0;
     padding: 0;
 }
 
+.clearfix::after { 
+    content: '';
+    clear: both;
+    display: table;
 
-/* --------- Navigation + header --------- */
 
+}
+
+/* ---------------- header------------------ */
 
 header {
     background: #ffffff;
@@ -29,36 +44,51 @@ header {
 }
 
 
-.navbar {
-    background-color: transparent !important;
-    float: right;
-    margin-right: 300px;
-
-}
+/* ------------ nav bar ---------------- */
 
 
-/* ------- Main Container ------- */
 
+nav {
 
-.col-md-8 {
-    background: #ffffff;
     padding: 20px;
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    border: 1px solid #dddddd;
-    overflow: hidden;
-
+    float: right;
+    margin-top: 10px;
+    
 }
 
-/* -------- About Me Page -------- */
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    color: #777777;
+    margin-left: 20px;   
+}
+
+li a {
+    text-decoration: none;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+li a:hover {
+    color: hotpink;
+}
+
+
+
+
+/* ------------main section home page-------------- */
+
 
 .subheading {
     color: #4aaaa5;
     margin-left: 20px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
+
+
 
 .bioimage {
     max-width: 30%;
@@ -73,9 +103,65 @@ header {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+.maintext {
+    color: #777777;
+    margin-top: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 
-/* ------Portfolio Gallery ---------*/
+.section-container {
+    background: #ffffff;
+    padding: 20px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border: 1px solid #dddddd;
+    overflow: hidden;
 
+}
+
+
+
+/* -------- contact page ----------------- */
+
+
+.contact-form {
+    margin-left: 20px;
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
+  p {
+      color: #777777;
+  }
+
+
+.submitbutton {
+    margin-left: 5 px;
+}
+
+
+#clickme {
+    background: #4aaaa5;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 20px;
+    width: 120px;
+}
+
+
+
+
+/* ----------- portfolio gallery --------- */
 
 .card-container {
     float: left;
@@ -103,7 +189,11 @@ header {
 }
 
 
-/* ------------ Footer ------------- */
+
+/* ----------------footer----------------- */
+
+
+
 
 footer {
     background: #666666;
@@ -117,4 +207,13 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+
 }
