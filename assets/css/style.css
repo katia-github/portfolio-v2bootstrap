@@ -1,3 +1,4 @@
+
 body {
     background-image: url("../images/fishnets-and-hearts.png");
     margin: 0;
@@ -12,6 +13,7 @@ body {
 /* ------------ nav bar ---------------- */
 
 .navbar {
+    float: right;
     
 }
 
@@ -24,7 +26,6 @@ body {
 
 .subheading {
     color: #4aaaa5;
-    margin-left: 20px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
@@ -32,10 +33,8 @@ body {
 
 .bioimage {
     max-width: 30%;
-    max-width: 30%;
     float: left;
     margin: 20px;
-
 }
 
 .maintext {
@@ -51,6 +50,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
+    margin-top: 40px;
     border: 1px solid #dddddd;
     overflow: hidden;
 
@@ -58,22 +58,22 @@ body {
 
 
 
+
 /* -------- contact page ----------------- */
 
 
 
-.submitbutton {
-    margin-left: 5 px;
+.btn {
+    background: #4aaaa5;
+    border: none;
 }
 
+.btn:hover {
+    background: pink;
+}
 
-#clickme {
-    background: #4aaaa5;
-    color: #ffffff;
-    font-size: 20px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    padding: 20px;
-    width: 120px;
+.btn:active {
+    background: pink;
 }
 
 
@@ -83,7 +83,7 @@ body {
 
 .card-container {
     float: left;
-    width: 30%;
+    width: 300px;
     margin: 2.5%;
 }
 
