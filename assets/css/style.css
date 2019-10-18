@@ -12,10 +12,6 @@ body {
 
 /* ------------ nav bar ---------------- */
 
-.navbar {
-    float: right;
-    
-}
 
 
 
@@ -134,4 +130,4 @@ body {
     padding: 0;
     font-size: 16px;
 
-} 
+}
